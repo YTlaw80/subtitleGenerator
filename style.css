@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Jua', sans-serif;
+  font-size: 1.75rem;
+}
+.wrapper {
+  background-color: skyblue;
+  border-radius: 15px;
+  width: 500px;
+  height: 100px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+.sec_wrapper {
+  background-color: #74a7fe;
+  border-radius: 15px;
+  display: inline-block; 
+  position: relative;
+  height: 75px;
+  width: 350px;
+  text-align: center;
+  padding-top: 10px;
+}
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.input_wr {
+	margin-top: 10px;
+}
+#nameInput {
+	width: 250px;
+}
+#cntInput {
+  width: 250px;
+}
+#nameInput, #nameBtn, #cntInput, #cntBtn {
+	height: 45px;
+	border-radius: 15px;
+	font-size: 1.25rem;
+	font-family: 'Jua', sans-serif;
+}
+#nameBtn {
+	width: 100px;
+	margin-top: 20px;
+	background-color: skyblue;
+}
+#nameBtn:hover {
+	background-color: #577f8e;
+	transition: 1.25s;
+	cursor: pointer;
+}
+#cntBtn {
+	width: 100px;
+	margin-top: 20px;
+	background-color: skyblue;
+}
+#cntBtn:hover {
+	background-color: #577f8e;
+	transition: 1.25s;
+	cursor: pointer;
+}
