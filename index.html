@@ -1,34 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>index</title>
+  <title>Subtitle Generator</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <table class="wrapper">
+  <table id="wrapper">
     <tr>
       <td>
         <div id="name">사람</div>
       </td>
-      <td class="sec_wrapper" id="cnt">내용</td>
+      <td id="cnt">내용</td>
     </tr>
   </table>
   <div class="input_wr">
-		이름 : 
-		<input type="text" id="nameInput" />
-		<button id="nameBtn">확인</button>
+    이름 :
+    <input type="text" id="nameInput" class="texts">
+    <button id="nameBtn" class="buttons">확인</button>
 	</div>
   <div class="input_wr">
     내용 : 
-		<input type="text" id="cntInput" />
-		<button id="cntBtn">확인</button>
-	</div>
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+    <input type="text" id="cntInput" class="texts">
+    <button id="cntBtn" class="buttons">확인</button>
+  </div>
+  <div class="color_wr">
+    <div class="color1_wr">
+      배경 색 :
+      <input type="text" id="cor1Input" class="texts" placeholder="헥스 코드를 넣으세요" />
+      <button id="cor1Btn" class="buttons">확인</button>
+    </div>
+    <div class="color2_wr">
+      내용 색 :
+      <input type="text" id="cor2Input" class="texts" placeholder="헥스코드를 넣으세요" />
+      <button id="cor2Btn" class="buttons">확인</button>
+    </div>
+  </div>
+  <br />
+  <p class="help">색 도움말 : 헥스코드(#~~~~~~) 또는 red, blue 등의 값을 넣어보세요.</p>
+  <p class="help">도움말 : 사용하려면 윈도우 키 + Shift + S(Windows)를 누르거나<br />Shift + Command + 3(MacOs)<br /> 또는 alt + ctrl, PrtSc(Linux)등을 눌러 캡쳐하세요.</p>
   <script src="script.js"></script>
 </body>
-
 </html>

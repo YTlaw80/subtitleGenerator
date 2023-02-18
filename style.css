@@ -1,67 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
 html, body {
-  height: 100%;
-  width: 100%;
-  font-family: 'Jua', sans-serif;
-  font-size: 1.75rem;
+    height: 100%;
+    width: 100%;
+    font-family: 'Jua', sans-serif;
+    font-size: 1.75rem;
 }
-.wrapper {
-  background-color: skyblue;
-  border-radius: 15px;
-  width: 500px;
-  height: 100px;
-  padding-top: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 25px;
+
+#wrapper {
+    background-color: skyblue;
+    border-radius: 15px;
+    width: 750px;
+    height: 100px;
+    padding: 25px;
 }
-.sec_wrapper {
-  background-color: #74a7fe;
-  border-radius: 15px;
-  display: inline-block; 
-  position: relative;
-  height: 75px;
-  width: 350px;
-  text-align: center;
-  padding-top: 10px;
+
+#cnt {
+    background-color: #74a7fe;
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    height: 75px;
+    width: 500px;
+    text-align: center;
+    padding-top: 10px;
 }
-.content {
+
+#name {
+    margin-right: 10px;
+}
+
+#cnt {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
+
 .input_wr {
-	margin-top: 10px;
+    margin-top: 10px;
 }
-#nameInput {
-	width: 250px;
+
+.texts {
+    width: 250px;
 }
-#cntInput {
-  width: 250px;
+
+.buttons, .texts {
+    height: 45px;
+    border-radius: 15px;
+    font-size: 1.25rem;
+    font-family: 'Jua', sans-serif;
 }
-#nameInput, #nameBtn, #cntInput, #cntBtn {
-	height: 45px;
-	border-radius: 15px;
-	font-size: 1.25rem;
-	font-family: 'Jua', sans-serif;
+.buttons:hover {
+    background-color: #577f8e;
+    transition: 1.25s;
+    cursor: pointer;
 }
-#nameBtn {
-	width: 100px;
-	margin-top: 20px;
-	background-color: skyblue;
+.buttons {
+    width: 100px;
+    margin-top: 20px;
+    background-color: skyblue;
 }
-#nameBtn:hover {
-	background-color: #577f8e;
-	transition: 1.25s;
-	cursor: pointer;
-}
-#cntBtn {
-	width: 100px;
-	margin-top: 20px;
-	background-color: skyblue;
-}
-#cntBtn:hover {
-	background-color: #577f8e;
-	transition: 1.25s;
-	cursor: pointer;
+
+.help {
+    font-size: 0.75rem;
 }
